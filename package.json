@@ -1,15 +1,18 @@
 {
-  "name": "headless-cms",
+  "name": "my-nodejs-mvc-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A basic Node.js MVC application",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.21.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.12.0"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.21.2"
-  }
+  "license": "ISC"
 }
